@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="mavenng">
+         
+  <test name="flipkart">
+	 <classes>
+	   <class name="package002.TestClass001"/>
+	 </classes>
+   </test>
+</suite>
