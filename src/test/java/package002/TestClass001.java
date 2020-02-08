@@ -23,8 +23,7 @@ public class TestClass001 {
 	public void Method3()
 	{
 		System.out.println("method3 printing its value");
-		System.out.println("let add method 3 new entry");
-		System.out.println("let local add method 3 new entry");
+		System.out.println("checking conflict changes");
 	}
 
 }
