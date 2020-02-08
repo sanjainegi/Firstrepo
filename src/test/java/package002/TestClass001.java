@@ -24,6 +24,7 @@ public class TestClass001 {
 	{
 		System.out.println("method3 printing its value");
 		System.out.println("checking conflict changes");
+
 		if(true)
 		{
 			int a=10;
@@ -35,7 +36,10 @@ public class TestClass001 {
 			System.out.println("adding method");
 			
 		}
-		System.out.println("checking conflict 001 changes");
+
+		else
+			System.out.println("hdgjsdfsdghfds");
+
 		
 	}
 
