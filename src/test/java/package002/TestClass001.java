@@ -24,6 +24,21 @@ public class TestClass001 {
 	{
 		System.out.println("method3 printing its value");
 		System.out.println("checking conflict changes");
+		if(true)
+		{
+			int a=10;
+			int b=12;
+			
+			int c=a+b;
+			
+			System.out.println(c);
+			System.out.println("adding method");
+			
+		}
+		System.out.println("checking conflict 001 changes");
+		
 	}
+
+	
 
 }
