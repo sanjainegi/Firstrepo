@@ -28,6 +28,21 @@ public class TestClass001 {
 
 
 	}
+	
+	@Test
+	public void Method4()
+	{
+		if(System.getProperty("lastname").equalsIgnoreCase("negi"))
+			System.out.println("negi last name");
+		
+		else if(System.getProperty("lastname").equalsIgnoreCase("singh"))
+			System.out.println("singh last name");
+		else
+			System.out.println(System.getProperty("lastname"));
+
+
+	}
+
 
 	
 
