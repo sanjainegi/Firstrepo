@@ -42,9 +42,6 @@ public class TestClass001 {
 
 		System.out.println(System.getProperty("country"));
 		
-		System.out.println(System.getProperty("city"));
-		
-		System.out.println(System.getProperty("game"));
 		
 
 	}
