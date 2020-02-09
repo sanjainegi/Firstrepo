@@ -40,6 +40,12 @@ public class TestClass001 {
 		else
 			System.out.println(System.getProperty("lastname"));
 
+		System.out.println(System.getProperty("country"));
+		
+		System.out.println(System.getProperty("city"));
+		
+		System.out.println(System.getProperty("game"));
+		
 
 	}
 
