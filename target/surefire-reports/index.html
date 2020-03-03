@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-mavenng">
-              <span class="suite-name border-failed">mavenng</span>
+              <span class="suite-name border-passed">mavenng</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-mavenng" class="hide-methods failed suite-mavenng"> (hide)</a> <!-- hide-methods failed suite-mavenng -->
-                      <a href="#" panel-name="suite-mavenng" class="show-methods failed suite-mavenng"> (show)</a> <!-- show-methods failed suite-mavenng -->
-                    </span>
-                    <div class="method-list-content failed suite-mavenng">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-mavenng" title="package002.TestClass001" hash-for-method="Method4">Method4</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-mavenng -->
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -129,6 +115,11 @@
                         <a href="#" class="method navigator-link" panel-name="suite-mavenng" title="package002.TestClass001" hash-for-method="Method3">Method3</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-mavenng" title="package002.TestClass001" hash-for-method="Method4">Method4</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-mavenng -->
                   </li>
                 </ul>
@@ -141,25 +132,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-mavenng" class="panel mavenng">
-          <div class="suite-mavenng-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">package002.TestClass001</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Method4">
-                  </a> <!-- Method4 -->
-                  <span class="method-name">Method4</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at package002.TestClass001.Method4(TestClass001.java:37)
-... Removed 29 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-mavenng-class-failed -->
           <div class="suite-mavenng-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -185,6 +157,13 @@
                   <a name="Method3">
                   </a> <!-- Method3 -->
                   <span class="method-name">Method3</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Method4">
+                  </a> <!-- Method4 -->
+                  <span class="method-name">Method4</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -245,24 +224,24 @@ data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'Method1')
 data.setCell(0, 2, 'package002.TestClass001')
-data.setCell(0, 3, 16);
+data.setCell(0, 3, 14);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Method4')
+data.setCell(1, 1, 'Method3')
 data.setCell(1, 2, 'package002.TestClass001')
-data.setCell(1, 3, 2);
+data.setCell(1, 3, 1);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Method3')
+data.setCell(2, 1, 'Method2')
 data.setCell(2, 2, 'package002.TestClass001')
 data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Method2')
+data.setCell(3, 1, 'Method4')
 data.setCell(3, 2, 'package002.TestClass001')
-data.setCell(3, 3, 1);
+data.setCell(3, 3, 0);
 window.suiteTableData['mavenng']= { tableData: data, tableDiv: 'times-div-mavenng'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 ms</span>
+              <span class="suite-total-time">Total running time: 16 ms</span>
               <div id="times-div-mavenng">
               </div> <!-- times-div-mavenng -->
             </div> <!-- times-div -->
@@ -295,17 +274,15 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Method2</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-start">16 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Method3</span>
-                <span class="method-start">23 ms</span>
+                <span class="method-start">18 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">Method4</span>
-                <span class="method-start">25 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

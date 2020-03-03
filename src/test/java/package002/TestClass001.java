@@ -33,6 +33,19 @@ public class TestClass001 {
 	}
 
 
-	
+	/*How Maven works is, if you run a command for any of the lifecycle phases, 
+	 it executes each default life cycle phase in order, before executing the command itself.
+
+	order of execution
+
+	validate >> compile >> test (optional) >> package >> verify >> install >> deploy
+
+	So when you run the command mvn package, it runs the commands for all lifecycle phases till package
+
+	validate >> compile >> test (optional) >> package
+
+	And as for mvn install, it runs the commands for all lifecycle phases till install, which includes package as well
+
+	validate >> compile >> test (optional) >> package >> verify >> install*/
 
 }
