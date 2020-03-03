@@ -10,8 +10,7 @@ public class TestClass001 {
 	{
 		System.out.println("method1 printing its value");
 		System.out.println("let add method 1 new entry");
-		System.out.println("let add method 1 new entry second entry");
-		System.out.println("let add method 1 new entry third entry");
+		
 	}
 	
 	@Test
@@ -19,6 +18,7 @@ public class TestClass001 {
 	{
 		System.out.println("method2 printing its value");
 		System.out.println("let add method 2 new entry");
+		System.out.println("let add method 2 new entry23");
 	}
 	
 	@Test
