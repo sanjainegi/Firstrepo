@@ -9,6 +9,8 @@ public class TestClass001 {
 	public void Method1()
 	{
 		System.out.println("method1 printing its value");
+		System.out.println(System.getProperty("country"));
+		System.out.println(System.getProperty("lastname"));
 		
 		
 	}
