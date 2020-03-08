@@ -19,8 +19,6 @@ public class TestClass001 {
 	public void Method2()
 	{
 		System.out.println("method2 printing its value");
-		System.out.println("method2 printing its value 56");
-		System.out.println("method2 printing its value 57");
 		
 	}
 	
