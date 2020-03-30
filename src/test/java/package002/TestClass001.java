@@ -9,7 +9,6 @@ public class TestClass001 {
 	public void Method1()
 	{
 		System.out.println("method1 printing its value");
-		System.out.println("method1 printing its value002");
 		
 	}
 	
