@@ -22,6 +22,7 @@ public class TestClass001 {
 		System.out.println("method2 printing its value");
 		System.out.println("method2 printing its value METHOD 2");
 		System.out.println("method2 printing its value  method 56");
+		System.out.println("method2 printing its value JJJJJJJJ");
 		
 		
 	}
