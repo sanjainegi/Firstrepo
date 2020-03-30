@@ -9,22 +9,13 @@ public class TestClass001 {
 	public void Method1()
 	{
 		System.out.println("method1 printing its value");
-		System.out.println(System.getProperty("country"));
-		System.out.println(System.getProperty("lastname"));
-		
-		
+				
 	}
 	
 	@Test
 	public void Method2()
 	{
-		System.out.println("method2 printing its value");
-		System.out.println("method2 printing its value");
-		System.out.println("method2 printing its value METHOD 2");
-		System.out.println("method2 printing its value  method 56");
-		System.out.println("method2 printing its value JJJJJJJJ");
-		
-		
+		System.out.println("method2 printing its value");		
 	}
 	
 	@Test
