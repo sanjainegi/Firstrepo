@@ -10,6 +10,7 @@ public class TestClass001 {
 	{
 		System.out.println("method1 printing its value");
 		System.out.println("method1 printing its value  SANJAI");
+		System.out.println("method1 printing its value  SANJAI negi");
 				
 	}
 	
