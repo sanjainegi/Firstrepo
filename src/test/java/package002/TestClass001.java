@@ -8,7 +8,6 @@ public class TestClass001 {
 	@Test
 	public void Method1()
 	{
-		System.out.println("method1 printing its value");
 		
 	}
 	
