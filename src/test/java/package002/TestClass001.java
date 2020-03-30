@@ -11,7 +11,6 @@ public class TestClass001 {
 		System.out.println("method1 printing its value");
 		System.out.println(System.getProperty("country"));
 		System.out.println(System.getProperty("lastname"));
-		System.out.println(System.getProperty("lastname jon don"));
 		
 		
 	}
